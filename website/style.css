@@ -2,3 +2,13 @@ body {
     font-family: Inter;
     background-color: white;
 }
+button {
+    background-color: rgb(123, 250, 123);
+    border-radius: 20%;
+    height: 50px;
+    width: 60px;
+}
+#theme {
+    background-color: #1d1d1dff;
+    color: rgb(255, 255, 255);
+}

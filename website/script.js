@@ -32,11 +32,18 @@ const body = document.body
 
 body.style.backgroundColor = "white"
 theme.addEventListener("click", event => {
+    // TODO: replace this button with an icon in the future
     if (body.style.backgroundColor == "white") {
+        // dark mode
+        event.target.style.backgroundColor = "#fff8f8ff"
+        event.target.style.color = "black"
         body.style.color = "white"
         body.style.backgroundColor = "#121212"
     }
     else {
+        // light mode
+        event.target.style.backgroundColor = "#1d1d1dff"
+        event.target.style.color = "white"
         body.style.backgroundColor = "white"
         body.style.color = "black"
     }
