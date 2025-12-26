@@ -25,3 +25,19 @@ function multiples(num) {
         return sum
     }
 }
+const myButton = document.getElementById("number")
+const theme = document.getElementById("theme")
+const body = document.body
+//
+
+body.style.backgroundColor = "white"
+theme.addEventListener("click", event => {
+    if (body.style.backgroundColor == "white") {
+        body.style.color = "white"
+        body.style.backgroundColor = "#121212"
+    }
+    else {
+        body.style.backgroundColor = "white"
+        body.style.color = "black"
+    }
+})
