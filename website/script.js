@@ -53,6 +53,6 @@ send.addEventListener("click", event => {
         text.innerHTML = `The sum of the multiples of 3 or 5 below this number is <strong>${value}</strong>`
     }
     else {
-        text.innerHTML = "It's not possible to solving this using negative numbers"
+        text.innerHTML = "It's not possible to solving this using this number"
     }
 })
